@@ -1,0 +1,4 @@
+#menu.flex {
+    display: flex !important;
+    flex-direction: column;
+  }

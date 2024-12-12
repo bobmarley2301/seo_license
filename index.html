@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ліцензування Освітніх Закладів</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/main.css">
+  <style>
+    body {
+      font-family: "Montserrat", serif;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+  <!-- Navbar -->
+  <nav class="bg-blue-600 text-white py-4 fixed w-full top-0 z-10">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <div class="text-xl font-bold">Ліцензування Освітніх Закладів</div>
+      <div class="md:hidden">
+        <button id="menu-button" class="focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+      <div id="menu" class="hidden md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 transition-all duration-300 ease-in-out">
+        <a href="#" class="hover:text-blue-300">Головна</a>
+        <a href="#features" class="hover:text-blue-300">Переваги</a>
+        <a href="#plan" class="hover:text-blue-300">Покроковий план</a>
+        <a href="#documents" class="hover:text-blue-300">Документи</a>
+        <a href="#contact" class="hover:text-blue-300">Контакти</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-blue-600 text-white py-40 h-screen flex items-center justify-center" style="background-image: url('https://via.placeholder.com/1500'); background-size: cover; background-position: center;">
+    <div class="text-center" data-aos="fade-up">
+      <h1 class="text-5xl font-bold mb-4">Ліцензування освітніх закладів: від ідеї до успіху!</h1>
+      <p class="text-lg mb-6">Дізнайтесь, як легально та швидко отримати ліцензію для свого закладу за допомогою покрокового плану, експертних інструкцій та зразків документів.</p>
+      <a href="#plan" class="bg-white text-blue-600 py-3 px-8 rounded-full text-xl hover:bg-blue-200 transition duration-300">Розпочати</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container mx-auto px-4 py-10">
+    <section id="features" class="text-center" data-aos="fade-up">
+      <h2 class="text-3xl font-semibold mb-4">Що ми пропонуємо?</h2>
+      <p class="mt-4 text-lg text-gray-600">Отримайте покроковий план, експертні рекомендації та готові зразки документів, щоб самостійно, швидко та легально отримати ліцензію для свого освітнього закладу.</p>
+    </section>
+
+    <!-- Features Block -->
+    <section id="advantages" class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white shadow-md rounded-lg p-6" data-aos="flip-left">
+        <h3 class="text-xl font-bold">Переваги та недоліки ліцензування</h3>
+        <p class="mt-2 text-gray-600">Дізнайтесь, чому ліцензування — це не лише обов'язкова процедура, а й інструмент для підвищення довіри та репутації вашого освітнього закладу.</p>
+        <p class="mt-2 text-gray-600">Ми покажемо, як уникнути ризиків і мінімізувати помилки у документації.</p>
+        <p class="mt-2 text-gray-600 font-semibold">Ліцензія — це ваш пропуск у світ офіційної освіти!</p>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-6" data-aos="flip-up">
+        <h3 class="text-xl font-bold">Покроковий план</h3>
+        <p class="mt-2 text-gray-600">Розберіть по поличках весь процес створення освітнього закладу: вибір оптимальної форми власності, розробка установчих документів, підбір приміщення та обладнання.</p>
+        <p class="mt-2 text-gray-600 font-semibold">Ваша дорожня карта до ліцензування — кожен крок прозорий та зрозумілий.</p>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-6" data-aos="flip-right">
+        <h3 class="text-xl font-bold">Зразки документів</h3>
+        <p class="mt-2 text-gray-600">Отримайте доступ до готового пакету документів, включаючи заяви та акти, необхідні для успішного отримання ліцензії.</p>
+        <p class="mt-2 text-gray-600 font-semibold">Повний комплект документів — все, що потрібно для старту вашого закладу.</p>
+      </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="plan" class="mt-16 text-center" data-aos="fade-up">
+      <h2 class="text-2xl font-semibold mb-4">Готові розпочати?</h2>
+      <p class="mb-6">Запишіться на курс і створіть ліцензований освітній заклад, який відповідатиме всім стандартам та очікуванням!</p>
+      <a href="#contact" class="bg-blue-600 text-white py-3 px-8 rounded-lg hover:bg-blue-700 transition duration-300">Записатися на курс</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>© 2024 Ліцензування Освітніх Закладів. Усі права захищено.</p>
+    </div>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true
+    });
+  </script>
+  <!-- Navbar -->
+   <script>
+     document.getElementById('menu-button').addEventListener('click', function() {
+      var menu = document.getElementById('menu');
+      menu.classList.toggle('hidden');
+      menu.classList.toggle('flex');
+    });
+   </script>
+</body>
+
+</html>
