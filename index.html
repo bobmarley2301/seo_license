@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
   <link rel="stylesheet" href="style/main.css">
   <style>
     body {
@@ -20,76 +22,332 @@
 
 <body class="bg-gray-50 text-gray-800">
   <!-- Navbar -->
-  <nav class="bg-blue-600 text-white py-4 fixed w-full top-0 z-10">
+  <nav class="bg-[#174441] text-white py-4 fixed w-full top-0 z-10">
     <div class="container mx-auto flex justify-between items-center px-4">
       <div class="text-xl font-bold">Ліцензування Освітніх Закладів</div>
       <div class="md:hidden">
         <button id="menu-button" class="focus:outline-none">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <svg class="w-6 h-6 m-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
           </svg>
         </button>
       </div>
       <div id="menu" class="hidden md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 transition-all duration-300 ease-in-out">
-        <a href="#" class="hover:text-blue-300">Головна</a>
-        <a href="#features" class="hover:text-blue-300">Переваги</a>
-        <a href="#plan" class="hover:text-blue-300">Покроковий план</a>
-        <a href="#documents" class="hover:text-blue-300">Документи</a>
-        <a href="#contact" class="hover:text-blue-300">Контакти</a>
+        <a href="#" class="hover:text-[#E88B22]">Головна</a>
+        <a href="#features" class="hover:text-[#E88B22]">Переваги</a>
+        <a href="#plan" class="hover:text-[#E88B22]">Покроковий план</a>
+        <a href="#documents" class="hover:text-[#E88B22]">Документи</a>
+        <a href="#contact" class="hover:text-[#E88B22]">Контакти</a>
       </div>
     </div>
   </nav>
+  
+  
 
   <!-- Hero Section -->
-  <header class="bg-blue-600 text-white py-40 h-screen flex items-center justify-center" style="background-image: url('https://via.placeholder.com/1500'); background-size: cover; background-position: center;">
-    <div class="text-center" data-aos="fade-up">
-      <h1 class="text-5xl font-bold mb-4">Ліцензування освітніх закладів: від ідеї до успіху!</h1>
-      <p class="text-lg mb-6">Дізнайтесь, як легально та швидко отримати ліцензію для свого закладу за допомогою покрокового плану, експертних інструкцій та зразків документів.</p>
-      <a href="#plan" class="bg-white text-blue-600 py-3 px-8 rounded-full text-xl hover:bg-blue-200 transition duration-300">Розпочати</a>
+<header class="bg-[#174441] text-white py-40 h-screen flex items-center justify-center">
+  <div class="text-center" data-aos="fade-up">
+    <h1 class="text-5xl font-bold mb-4">Ліцензування освітніх закладів: від ідеї до успіху!</h1>
+    <p class="text-lg mb-6">Дізнайтесь, як легально та швидко отримати ліцензію для свого закладу за допомогою покрокового плану, експертних інструкцій та зразків документів.</p>
+    <a href="#plan" class="bg-white text-[#174441] py-3 px-8 rounded-full text-xl hover:bg-[#E88B22] hover:text-white transition duration-300">Розпочати</a>
+  </div>
+</header>
+
+  
+
+  <!-- Блок 1 -->
+<section class="bg-[#9DB49B] rounded-lg p-12 my-10 text-white shadow-lg" data-aos="fade-up" style="margin-top: 20%;">
+  <h2 class="text-4xl font-semibold text-center mb-8">Переваги та недоліки в отриманні ліцензії</h2>
+  <div class="text-xl">
+    <p class="mb-6">Ліцензування — це не лише обов'язкова процедура, а й потужний інструмент для підвищення довіри та репутації вашого освітнього закладу. Визначте основні переваги та виклики, з якими ви можете зіткнутися під час цього процесу:</p>
+    <ul class="list-disc pl-8 space-y-4">
+      <li class="mb-3 text-lg">Легальність і офіційний статус — ваше право на надання освітніх послуг у відповідності до законодавства.</li>
+      <li class="mb-3 text-lg">Довіра клієнтів — ліцензія підтверджує вашу професіональність та надійність у галузі.</li>
+      <li class="mb-3 text-lg">Можливість державної підтримки — отримайте доступ до фінансування та інших переваг від держави.</li>
+    </ul>
+    <p class="mt-6 mb-8">Проте не без викликів. У процесі ліцензування можуть виникати деякі труднощі, які ми допоможемо подолати:</p>
+    <ul class="list-disc pl-8 space-y-4">
+      <li class="mb-3 text-lg">Можливі помилки в документації — ми надамо вам чіткі інструкції та зразки документів, щоб уникнути затримок.</li>
+      <li class="mb-3 text-lg">Необхідність відповідності всім вимогам — правильний вибір форми власності, підготовка приміщень та обладнання для навчального процесу.</li>
+    </ul>
+  </div>
+  <p class="mt-8 text-center text-2xl font-semibold italic">
+    <i class="fas fa-quote-left text-gray-700 mr-2" style="color: #E88B22"></i>
+    Ліцензія — це ваш пропуск у світ офіційної освіти!
+    <i class="fas fa-quote-right text-gray-700 ml-2" style="color: #E88B22"></i>
+  </p>
+</section>
+
+  
+  
+  <!-- Блок 2 -->
+<section class="bg-[#9DB49B] rounded-lg p-12 my-10" data-aos="fade-up" style="margin-top: 20%;">
+  <h2 class="text-4xl font-semibold text-center text-white mb-6">Покроковий план: від вибору форми власності до отримання ліцензії</h2>
+  <p class="text-xl text-[#174441] mb-6 text-center">Ваша дорожня карта до ліцензування — кожен крок прозорий та зрозумілий.</p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <!-- Картка 1 -->
+    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all relative">
+      <div class="absolute right-[-20px] top-1/2 transform -translate-y-1/2 w-14 h-14 bg-[#174441]  text-white flex items-center justify-center rounded-full">
+        <i class="fas fa-check-circle text-xl"></i>
+      </div>
+      <h3 class="text-xl font-semibold text-[#174441] mb-4">1. Вибір форми власності</h3>
+      <p class="text-[#174441] mb-4">Оберіть оптимальну форму власності для вашого закладу: чи буде це ТОВ, приватний підприємець чи інша організаційна форма, що відповідатиме вимогам ліцензування.</p>
+      <p class="text-gray-500">Зробіть цей крок правильно — це основа вашої подальшої роботи!</p>
     </div>
-  </header>
 
-  <!-- Main Content -->
-  <main class="container mx-auto px-4 py-10">
-    <section id="features" class="text-center" data-aos="fade-up">
-      <h2 class="text-3xl font-semibold mb-4">Що ми пропонуємо?</h2>
-      <p class="mt-4 text-lg text-gray-600">Отримайте покроковий план, експертні рекомендації та готові зразки документів, щоб самостійно, швидко та легально отримати ліцензію для свого освітнього закладу.</p>
-    </section>
+    <!-- Картка 2 -->
+    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all relative">
+      <div class="absolute right-[-20px] top-1/2 transform -translate-y-1/2 w-14 h-14 bg-[#174441] text-white flex items-center justify-center rounded-full">
+        <i class="fas fa-file-alt text-xl"></i>
+      </div>
+      <h3 class="text-xl font-semibold text-[#174441] mb-4">2. Розробка установчих документів</h3>
+      <p class="text-[#174441] mb-4">Залучіть юристів для правильної розробки статуту, положень про організацію та інші документи, які будуть підтверджувати вашу правову основу.</p>
+      <p class="text-gray-500">Чітка документація — ключ до успіху у процесі ліцензування.</p>
+    </div>
 
-    <!-- Features Block -->
-    <section id="advantages" class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="bg-white shadow-md rounded-lg p-6" data-aos="flip-left">
-        <h3 class="text-xl font-bold">Переваги та недоліки ліцензування</h3>
-        <p class="mt-2 text-gray-600">Дізнайтесь, чому ліцензування — це не лише обов'язкова процедура, а й інструмент для підвищення довіри та репутації вашого освітнього закладу.</p>
-        <p class="mt-2 text-gray-600">Ми покажемо, як уникнути ризиків і мінімізувати помилки у документації.</p>
-        <p class="mt-2 text-gray-600 font-semibold">Ліцензія — це ваш пропуск у світ офіційної освіти!</p>
+    <!-- Картка 3 -->
+    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all relative">
+      <div class="absolute right-[-20px] top-1/2 transform -translate-y-1/2 w-14 h-14 bg-[#174441] text-white flex items-center justify-center rounded-full">
+        <i class="fas fa-building text-xl"></i>
       </div>
-      <div class="bg-white shadow-md rounded-lg p-6" data-aos="flip-up">
-        <h3 class="text-xl font-bold">Покроковий план</h3>
-        <p class="mt-2 text-gray-600">Розберіть по поличках весь процес створення освітнього закладу: вибір оптимальної форми власності, розробка установчих документів, підбір приміщення та обладнання.</p>
-        <p class="mt-2 text-gray-600 font-semibold">Ваша дорожня карта до ліцензування — кожен крок прозорий та зрозумілий.</p>
-      </div>
-      <div class="bg-white shadow-md rounded-lg p-6" data-aos="flip-right">
-        <h3 class="text-xl font-bold">Зразки документів</h3>
-        <p class="mt-2 text-gray-600">Отримайте доступ до готового пакету документів, включаючи заяви та акти, необхідні для успішного отримання ліцензії.</p>
-        <p class="mt-2 text-gray-600 font-semibold">Повний комплект документів — все, що потрібно для старту вашого закладу.</p>
-      </div>
-    </section>
+      <h3 class="text-xl font-semibold text-[#174441] mb-4">3. Підбір приміщення та обладнання</h3>
+      <p class="text-[#174441] mb-4">Вибір приміщення для вашого навчального закладу має відповідати вимогам ліцензії щодо безпеки, зручності та технічного оснащення.</p>
+      <p class="text-gray-500">Ретельно вибирайте, аби уникнути додаткових витрат та затримок.</p>
+    </div>
 
-    <!-- Call to Action Section -->
-    <section id="plan" class="mt-16 text-center" data-aos="fade-up">
-      <h2 class="text-2xl font-semibold mb-4">Готові розпочати?</h2>
-      <p class="mb-6">Запишіться на курс і створіть ліцензований освітній заклад, який відповідатиме всім стандартам та очікуванням!</p>
-      <a href="#contact" class="bg-blue-600 text-white py-3 px-8 rounded-lg hover:bg-blue-700 transition duration-300">Записатися на курс</a>
-    </section>
-  </main>
+    <!-- Картка 4 -->
+    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all relative">
+      <div class="absolute right-[-20px] top-1/2 transform -translate-y-1/2 w-14 h-14 bg-[#174441] text-white flex items-center justify-center rounded-full">
+        <i class="fas fa-paper-plane text-xl"></i>
+      </div>
+      <h3 class="text-xl font-semibold text-[#174441] mb-4">4. Подання документів до ліцензійного органу</h3>
+      <p class="text-[#174441] mb-4">Зберіть усі необхідні документи та правильно подайте їх до ліцензійного органу, щоб уникнути помилок і затримок.</p>
+      <p class="text-gray-500">Ми надамо вам чіткий список вимог та корисні поради для успішного подання документів.</p>
+    </div>
+
+    <!-- Картка 5 -->
+    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all relative">
+      <div class="absolute right-[-20px] top-1/2 transform -translate-y-1/2 w-14 h-14 bg-[#174441] text-white flex items-center justify-center rounded-full">
+        <i class="fas fa-thumbs-up text-xl"></i>
+      </div>
+      <h3 class="text-xl font-semibold text-[#174441] mb-4">5. Отримання ліцензії</h3>
+      <p class="text-[#174441] mb-4">Після успішного подання документів і перевірки, вам видадуть ліцензію, що дасть змогу офіційно надавати освітні послуги.</p>
+      <p class="text-gray-500">Отримання ліцензії — це завершення важливого етапу, але також початок нового етапу у вашому розвитку.</p>
+    </div>
+  </div>
+
+  <p class="mt-6 text-center text-2xl font-semibold text-white">
+    <i class="fas fa-quote-left mr-2" style="color: #E88B22;"></i>
+    Дотримуйтесь цього покрокового плану, і ви зможете успішно пройти через весь процес ліцензування!
+    <i class="fas fa-quote-right ml-2" style="color: #E88B22;"></i>
+  </p>
+</section>
+
+
+  
+  
+
+  <!-- Блок 3 -->
+<section class="container mx-auto bg-[#F9F9F9] rounded-lg p-8 my-10" data-aos="fade-up" style="margin-top: 20%;">
+  <h2 class="text-3xl font-semibold text-center text-[#E88B22] mb-6">Зразок пакету необхідних документів</h2>
+  <p class="text-lg text-[#9DB49B] mb-6 text-center">Повний комплект документів — все, що потрібно для старту вашого закладу.</p>
+
+  <!-- Крок 1 -->
+  <div class="flex items-center mb-8 animate__animated animate__fadeInLeft" data-aos="fade-up">
+    <div class="bg-[#174441] text-white p-4 rounded-full w-14 h-14 flex items-center justify-center mr-6">
+      <span class="text-xl">1</span>
+    </div>
+    <div>
+      <h3 class="text-xl font-semibold text-[#174441] mb-4">Заява про надання ліцензії</h3>
+      <p class="text-gray-700 mb-4">Оформіть стандартну заяву, що містить всі необхідні реквізити, які необхідні для подання до ліцензійного органу.</p>
+      <p class="text-gray-500">Ми надаємо вам шаблон з усіма потрібними полями та поясненнями, щоб ви могли без проблем заповнити цей документ.</p>
+    </div>
+  </div>
+
+  <!-- Крок 2 -->
+  <div class="flex items-center mb-8 animate__animated animate__fadeInRight" data-aos="fade-up">
+    <div class="bg-[#174441] text-white p-4 rounded-full w-14 h-14 flex items-center justify-center mr-6">
+      <span class="text-xl">2</span>
+    </div>
+    <div>
+      <h3 class="text-xl font-semibold text-[#174441] mb-4">Акт про готовність приміщення</h3>
+      <p class="text-gray-700 mb-4">Підготуйте акт про готовність приміщення для надання освітніх послуг. Це важливий документ, який підтверджує, що ваші приміщення відповідають усім стандартам.</p>
+      <p class="text-gray-500">Заповніть акт, користуючись нашим зразком, щоб уникнути помилок і затримок під час перевірки.</p>
+    </div>
+  </div>
+
+  <!-- Крок 3 -->
+  <div class="flex items-center mb-8 animate__animated animate__fadeInLeft" data-aos="fade-up">
+    <div class="bg-[#174441] text-white p-4 rounded-full w-14 h-14 flex items-center justify-center mr-6">
+      <span class="text-xl">3</span>
+    </div>
+    <div>
+      <h3 class="text-xl font-semibold text-[#174441] mb-4">Перелік обладнання та навчальних матеріалів</h3>
+      <p class="text-gray-700 mb-4">Складіть детальний перелік обладнання та матеріалів, необхідних для навчального процесу. Враховуйте всі вимоги, які ставляться до технічної оснащеності закладу.</p>
+      <p class="text-gray-500">Наш зразок допоможе вам скласти правильний перелік, що відповідає актуальним вимогам ліцензійного органу.</p>
+    </div>
+  </div>
+
+  <!-- Крок 4 -->
+  <div class="flex items-center mb-8 animate__animated animate__fadeInRight" data-aos="fade-up">
+    <div class="bg-[#174441] text-white p-4 rounded-full w-14 h-14 flex items-center justify-center mr-6">
+      <span class="text-xl">4</span>
+    </div>
+    <div>
+      <h3 class="text-xl font-semibold text-[#174441] mb-4">Статут навчального закладу</h3>
+      <p class="text-gray-700 mb-4">Розробіть статут закладу, в якому буде чітко прописано мету, завдання, структуру та інші важливі аспекти вашої організації.</p>
+      <p class="text-gray-500">Використовуйте наш шаблон статуту для зручності та відповідності всім правовим вимогам.</p>
+    </div>
+  </div>
+
+  <!-- Крок 5 -->
+  <div class="flex items-center mb-8 animate__animated animate__fadeInLeft" data-aos="fade-up">
+    <div class="bg-[#174441] text-white p-4 rounded-full w-14 h-14 flex items-center justify-center mr-6">
+      <span class="text-xl">5</span>
+    </div>
+    <div>
+      <h3 class="text-xl font-semibold text-[#174441] mb-4">Договір оренди або документи на право власності</h3>
+      <p class="text-gray-700 mb-4">Забезпечте наявність договору оренди приміщення або документів, що підтверджують право власності на приміщення, в якому буде працювати ваш заклад.</p>
+      <p class="text-gray-500">Ми надамо вам шаблон договору, щоб ви могли правильно оформити цей документ.</p>
+    </div>
+  </div>
+
+</section>
+
+
+  <!-- Заклик до дій -->
+
+  <section class="bg-[#E88B22] rounded-lg p-10 my-12 shadow-xl" data-aos="fade-up" style="margin-top: 10%">
+    <h2 class="text-4xl font-semibold text-center text-white mb-6">Розпочніть вже зараз!</h2>
+    <p class="text-lg text-white mb-8 text-center">Запишіться на курс і створіть ліцензований освітній заклад, який відповідатиме всім стандартам та очікуванням!</p>
+
+    <div class="flex justify-center space-x-8">
+      <a href="#learn-more" class="px-8 py-4 text-xl font-medium text-white bg-[#174441] hover:bg-[#9DB49B] rounded-lg shadow-md transition duration-300 transform hover:scale-105">
+        Дізнатися більше
+      </a>
+      <a href="#register" class="px-8 py-4 text-xl font-medium text-white bg-[#9DB49B] hover:bg-[#174441] rounded-lg shadow-md transition duration-300 transform hover:scale-105">
+        Зареєструватися на курс
+      </a>
+    </div>
+  </section>
+
+
+  <!-- Відгуки та рекомендації -->
+
+  <section class="bg-[#9DB49B] text-[#174441] py-12 my-10 rounded-lg shadow-xl" data-aos="fade-up" style="margin-top: 20%;">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-semibold text-[#174441] mb-6" data-aos="fade-up">Відгуки та Рекомендації</h2>
+      <p class="text-lg text-[#174441] mb-8" data-aos="fade-up" data-aos-delay="200">Ось що говорять наші клієнти про нас та наші послуги!</p>
+
+      <div class="flex justify-center space-x-6">
+        <!-- Відгук 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-md max-w-xs" data-aos="fade-right" data-aos-delay="200">
+          <p class="text-[#174441] mb-4">"Це найкращий курс, який я проходив. Все чітко і зрозуміло. Рекомендую!"</p>
+          <p class="font-semibold text-[#E88B22]">Олександр І.</p>
+          <p class="text-sm text-gray-500">Засновник освітнього закладу</p>
+        </div>
+        
+        <!-- Відгук 2 -->
+        <div class="bg-white p-6 rounded-lg shadow-md max-w-xs" data-aos="fade-up" data-aos-delay="400">
+          <p class="text-[#174441] mb-4">"Завдяки цьому курсу я зміг швидко отримати ліцензію і запустити свій заклад. Відмінний сервіс!"</p>
+          <p class="font-semibold text-[#E88B22]">Марія К.</p>
+          <p class="text-sm text-gray-500">Керівник навчального закладу</p>
+        </div>
+        
+        <!-- Відгук 3 -->
+        <div class="bg-white p-6 rounded-lg shadow-md max-w-xs" data-aos="fade-left" data-aos-delay="600">
+          <p class="text-[#174441] mb-4">"Все пройшло без проблем, курс дуже інформативний. Дякую за допомогу!"</p>
+          <p class="font-semibold text-[#E88B22]">Іван П.</p>
+          <p class="text-sm text-gray-500">Менеджер по ліцензуванню</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Вартість -->
+
+  <section class="bg-[#E88B22] text-white py-12 my-10 rounded-lg shadow-xl" data-aos="fade-up" style="margin-top: 20%;">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-6" data-aos="fade-up">Вартість наших послуг</h2>
+      <p class="text-lg mb-8" data-aos="fade-up" data-aos-delay="200">Оберіть наш пакет для отримання повної консультації та допомоги в ліцензуванні!</p>
+
+      <div class="flex justify-center">
+        <!-- Пакет -->
+        <div class="bg-white text-[#174441] p-6 rounded-lg shadow-md max-w-xs" data-aos="fade-up" data-aos-delay="400">
+          <h3 class="text-xl font-semibold mb-4">Пакет "Ліцензування"</h3>
+          <p class="text-lg font-semibold mb-4">₴10,000</p>
+          <p class="text-gray-700 mb-4">Включає: консультацію, підготовку документів, подачу заяви, супровід до отримання ліцензії.</p>
+          <a href="#register" class="inline-block bg-[#174441] text-white py-2 px-4 rounded-lg mt-4 hover:bg-[#9DB49B] transition duration-300">Записатись</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Як оплатити -->
+  <section class="py-12 my-10" style="margin-top: 20%;">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-6" data-aos="fade-up" style="color: #E88B22;">Як оплатити</h2>
+      <p class="text-lg mb-8" data-aos="fade-up" data-aos-delay="200" style="color: #174441;">Оплата через WayForPay - швидко, зручно та безпечно.</p>
+
+      <div class="bg-white text-[#174441] p-6 rounded-lg shadow-md mx-auto" data-aos="fade-up" data-aos-delay="400" style="border-left: 4px solid #E88B22;">
+        <h3 class="text-xl font-semibold mb-4" style="color: #9DB49B;">Оплата через WayForPay</h3>
+        <p class="text-gray-700 mb-4" style="color: #174441;">Використовуйте WayForPay для миттєвих та безпечних оплат карткою Visa або MasterCard, а також через інші платіжні системи. Після підтвердження заявки ви отримаєте доступ до платіжної платформи для завершення оплати.</p>
+      </div>
+    </div>
+  </section>  
 
   <!-- Footer -->
-  <footer class="bg-gray-800 text-white py-6">
-    <div class="container mx-auto text-center">
-      <p>© 2024 Ліцензування Освітніх Закладів. Усі права захищено.</p>
+<footer class="bg-[#174441] text-gray-200 py-10" style="margin-top: 20%;">
+  <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <!-- About Section -->
+    <div>
+      <h3 class="text-lg font-semibold text-[#E88B22] mb-4">Про нас</h3>
+      <p class="text-[#9DB49B]">
+        Ми допомагаємо освітнім закладам отримати ліцензії швидко, прозоро та без зайвого клопоту.
+      </p>
     </div>
-  </footer>
+
+    <!-- Navigation Links -->
+    <div>
+      <h3 class="text-lg font-semibold text-[#E88B22] mb-4">Навігація</h3>
+      <ul class="space-y-2">
+        <li><a href="#" class="hover:text-[#E88B22] transition-colors">Головна</a></li>
+        <li><a href="#" class="hover:text-[#E88B22] transition-colors">Послуги</a></li>
+        <li><a href="#" class="hover:text-[#E88B22] transition-colors">Контакти</a></li>
+        <li><a href="#" class="hover:text-[#E88B22] transition-colors">Політика конфіденційності</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <div>
+      <h3 class="text-lg font-semibold text-[#E88B22] mb-4">Контакти</h3>
+      <p class="text-[#9DB49B]">Email: support@license.edu</p>
+      <p class="text-[#9DB49B]">Телефон: +38 (099) 123-45-67</p>
+      <div class="mt-4 flex space-x-4">
+        <a href="#" class="text-[#9DB49B] hover:text-[#E88B22] transition-colors">
+          <i class="fab fa-facebook text-2xl"></i>
+        </a>
+        <a href="#" class="text-[#9DB49B] hover:text-[#E88B22] transition-colors">
+          <i class="fab fa-twitter text-2xl"></i>
+        </a>
+        <a href="#" class="text-[#9DB49B] hover:text-[#E88B22] transition-colors">
+          <i class="fab fa-instagram text-2xl"></i>
+        </a>
+        <a href="#" class="text-[#9DB49B] hover:text-[#E88B22] transition-colors">
+          <i class="fab fa-linkedin text-2xl"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="border-t border-[#9DB49B] mt-8 pt-6 text-center text-[#9DB49B] text-sm">
+    © 2024 Ліцензування Освітніх Закладів. Усі права захищено.
+  </div>
+</footer>
+
+
 
   <!-- AOS Script -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
