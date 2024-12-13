@@ -24,7 +24,7 @@
   <!-- Navbar -->
   <nav class="bg-[#174441] text-white py-4 fixed w-full top-0 z-10">
     <div class="container mx-auto flex justify-between items-center px-4">
-      <div class="text-xl font-bold">Ліцензування Освітніх Закладів</div>
+      <div class="text-xl font-bold" style="color: #E88B22">Ліцензування Освітніх Закладів</div>
       <div class="md:hidden">
         <button id="menu-button" class="focus:outline-none">
           <svg class="w-6 h-6 m-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -215,22 +215,21 @@
 
 </section>
 
+<!-- Заклик до дій -->
+<section class="bg-[#E88B22] rounded-lg p-6 sm:p-10 my-12 shadow-xl" data-aos="fade-up" style="margin-top: 10%">
+  <h2 class="text-3xl sm:text-4xl font-semibold text-center text-white mb-6">Розпочніть вже зараз!</h2>
+  <p class="text-base sm:text-lg text-white mb-8 text-center">Запишіться на курс і створіть ліцензований освітній заклад, який відповідатиме всім стандартам та очікуванням!</p>
 
-  <!-- Заклик до дій -->
+  <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-8">
+    <a href="#learn-more" class="px-6 py-3 sm:px-8 sm:py-4 text-lg sm:text-xl font-medium text-white bg-[#174441] hover:bg-[#9DB49B] rounded-lg shadow-md transition duration-300 transform hover:scale-105">
+      Дізнатися більше
+    </a>
+    <a href="#register" class="px-6 py-3 sm:px-8 sm:py-4 text-lg sm:text-xl font-medium text-white bg-[#9DB49B] hover:bg-[#174441] rounded-lg shadow-md transition duration-300 transform hover:scale-105">
+      Зареєструватися на курс
+    </a>
+  </div>
+</section>
 
-  <section class="bg-[#E88B22] rounded-lg p-10 my-12 shadow-xl" data-aos="fade-up" style="margin-top: 10%">
-    <h2 class="text-4xl font-semibold text-center text-white mb-6">Розпочніть вже зараз!</h2>
-    <p class="text-lg text-white mb-8 text-center">Запишіться на курс і створіть ліцензований освітній заклад, який відповідатиме всім стандартам та очікуванням!</p>
-
-    <div class="flex justify-center space-x-8">
-      <a href="#learn-more" class="px-8 py-4 text-xl font-medium text-white bg-[#174441] hover:bg-[#9DB49B] rounded-lg shadow-md transition duration-300 transform hover:scale-105">
-        Дізнатися більше
-      </a>
-      <a href="#register" class="px-8 py-4 text-xl font-medium text-white bg-[#9DB49B] hover:bg-[#174441] rounded-lg shadow-md transition duration-300 transform hover:scale-105">
-        Зареєструватися на курс
-      </a>
-    </div>
-  </section>
 
 
   <!-- Відгуки та рекомендації -->
@@ -239,24 +238,24 @@
     <div class="container mx-auto text-center">
       <h2 class="text-3xl font-semibold text-[#174441] mb-6" data-aos="fade-up">Відгуки та Рекомендації</h2>
       <p class="text-lg text-[#174441] mb-8" data-aos="fade-up" data-aos-delay="200">Ось що говорять наші клієнти про нас та наші послуги!</p>
-
-      <div class="flex justify-center space-x-6">
+  
+      <div class="flex flex-col sm:flex-row justify-center space-y-6 sm:space-y-0 sm:space-x-6">
         <!-- Відгук 1 -->
-        <div class="bg-white p-6 rounded-lg shadow-md max-w-xs" data-aos="fade-right" data-aos-delay="200">
+        <div class="bg-white p-6 rounded-lg shadow-md max-w-xs mx-auto" data-aos="fade-right" data-aos-delay="200">
           <p class="text-[#174441] mb-4">"Це найкращий курс, який я проходив. Все чітко і зрозуміло. Рекомендую!"</p>
           <p class="font-semibold text-[#E88B22]">Олександр І.</p>
           <p class="text-sm text-gray-500">Засновник освітнього закладу</p>
         </div>
         
         <!-- Відгук 2 -->
-        <div class="bg-white p-6 rounded-lg shadow-md max-w-xs" data-aos="fade-up" data-aos-delay="400">
+        <div class="bg-white p-6 rounded-lg shadow-md max-w-xs mx-auto" data-aos="fade-up" data-aos-delay="400">
           <p class="text-[#174441] mb-4">"Завдяки цьому курсу я зміг швидко отримати ліцензію і запустити свій заклад. Відмінний сервіс!"</p>
           <p class="font-semibold text-[#E88B22]">Марія К.</p>
           <p class="text-sm text-gray-500">Керівник навчального закладу</p>
         </div>
         
         <!-- Відгук 3 -->
-        <div class="bg-white p-6 rounded-lg shadow-md max-w-xs" data-aos="fade-left" data-aos-delay="600">
+        <div class="bg-white p-6 rounded-lg shadow-md max-w-xs mx-auto" data-aos="fade-left" data-aos-delay="600">
           <p class="text-[#174441] mb-4">"Все пройшло без проблем, курс дуже інформативний. Дякую за допомогу!"</p>
           <p class="font-semibold text-[#E88B22]">Іван П.</p>
           <p class="text-sm text-gray-500">Менеджер по ліцензуванню</p>
@@ -264,6 +263,7 @@
       </div>
     </div>
   </section>
+  
 
 
   <!-- Вартість -->
@@ -286,7 +286,7 @@
   </section>
 
   <!-- Як оплатити -->
-  <section class="py-12 my-10" style="margin-top: 20%;">
+  <section class="py-12 my-10" style="margin-top: 20%; margin: 5px;">
     <div class="container mx-auto text-center">
       <h2 class="text-3xl font-semibold mb-6" data-aos="fade-up" style="color: #E88B22;">Як оплатити</h2>
       <p class="text-lg mb-8" data-aos="fade-up" data-aos-delay="200" style="color: #174441;">Оплата через WayForPay - швидко, зручно та безпечно.</p>
