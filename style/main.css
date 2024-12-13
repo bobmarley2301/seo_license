@@ -2,3 +2,8 @@
     display: flex !important;
     flex-direction: column;
   }
+
+  #menu {
+    height: 0;
+  }
+  
