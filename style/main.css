@@ -1,9 +1,12 @@
 #menu.flex {
-    display: flex !important;
-    flex-direction: column;
-  }
+  display: flex !important;
+  flex-direction: column;
+}
 
-  #menu {
-    height: 0;
-  }
-  
+#menu {
+  height: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
