@@ -10,3 +10,15 @@
 html {
   scroll-behavior: smooth;
 }
+
+
+/* Стиль для меню в початковому стані */
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+/* Стиль для меню, коли воно має новий фон */
+.navbar.scrolled {
+  background-color: #174441; /* Задайте потрібний колір */
+}

@@ -28,12 +28,28 @@
         overflow-x: hidden;
         /* overflow-y: hidden; */
       }
+
+      /* Стиль для меню в початковому стані */
+      .navbar {
+        background-color: transparent;
+        transition: background-color 0.3s ease;
+      }
+
+      /* Стиль для меню, коли воно має новий фон */
+      .navbar.scrolled {
+        background-color: white;
+        color: #174441; /* Задайте потрібний колір */
+      }
+      .navbar.scrolled a:hover{
+        transition: .5s;
+        color: #E88B22;
+      }
     </style>
   </head>
 
   <body class="bg-gray-50 text-gray-800">
     <!-- Navbar -->
-    <nav class="bg-[#174441] text-white py-4 fixed w-full top-0 z-10">
+    <nav class="navbar bg-[#174441] text-white py-4 fixed w-full top-0 z-10">
       <div class="container mx-auto flex justify-between items-center px-4">
         <div class="text-xl font-bold" style="color: #e88b22">
           Ліцензування Освітніх Закладів
@@ -594,6 +610,18 @@
           menuIcon.classList.toggle("hidden");
           closeIcon.classList.toggle("hidden");
         });
+    </script>
+    
+    <script>
+      window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled"); // Додаємо клас для зміни кольору
+        } else {
+          navbar.classList.remove("scrolled"); // Прибираємо клас, якщо скрол менший
+        }
+      });
+
     </script>
   </body>
 </html>
