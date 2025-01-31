@@ -19,7 +19,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
-    
 
     <link rel="stylesheet" href="style/main.css" />
     <style>
@@ -31,7 +30,6 @@
 
       /* Стиль для меню в початковому стані */
       .navbar {
-        
         background-color: transparent;
         transition: background-color 0.3s ease;
       }
@@ -41,9 +39,9 @@
         background-color: white;
         color: #174441; /* Задайте потрібний колір */
       }
-      .navbar.scrolled a:hover{
-        transition: .5s;
-        color: #E88B22;
+      .navbar.scrolled a:hover {
+        transition: 0.5s;
+        color: #e88b22;
       }
     </style>
   </head>
@@ -103,7 +101,9 @@
           <a href="#course-info" class="block py-2 md:py-0 hover:text-[#E88B22]"
             >Інфо.</a
           >
-          <a href="#mini-course-access" class="block py-2 md:py-0 hover:text-[#E88B22]"
+          <a
+            href="#mini-course-access"
+            class="block py-2 md:py-0 hover:text-[#E88B22]"
             >Доступ</a
           >
           <a href="#faq" class="block py-2 md:py-0 hover:text-[#E88B22]"
@@ -113,45 +113,46 @@
       </div>
     </nav>
 
-<!-- Hero Section -->
-<header class="bg-[#174441] text-white min-h-screen flex items-center py-16 md:py-12">
-  <div class="container mx-auto flex flex-col-reverse md:flex-row items-center text-center md:text-left px-6 gap-12 md:gap-8">
-    <!-- Text Content -->
-    <div class="w-full md:w-1/2" data-aos="fade-up">
-      <h1 class="text-3xl sm:text-4xl font-bold mb-4 leading-snug">
-        Ліцензування освітніх закладів: від ідеї до успіху!
-      </h1>
-      <p class="text-base sm:text-lg mb-6">
-        Економте тисячі гривень на послугах юристів! Отримайте покроковий
-        план, експертні рекомендації та готові зразки документів, щоб
-        самостійно, швидко та легально отримати ліцензію для свого
-        освітнього закладу.
-      </p>
-      <!-- Кнопка Зареєструватись -->
-      <a
-        href="#register"
-        class="relative group inline-block px-6 py-3 text-base sm:text-lg font-bold uppercase text-white bg-[#E88B22] rounded-full border-2 border-transparent hover:border-white transition-all duration-300"
+    <!-- Hero Section -->
+    <header
+      class="bg-[#174441] text-white min-h-screen flex items-center py-16 md:py-12"
+    >
+      <div
+        class="container mx-auto flex flex-col-reverse md:flex-row items-center text-center md:text-left px-6 gap-12 md:gap-8"
       >
-        <span class="relative group-hover:text-[#174441] transition-colors duration-300">
-          Зареєструватись
-        </span>
-      </a>
-    </div>
-    <!-- Image Content -->
-    <div class="w-full md:w-1/2 flex justify-center" data-aos="fade-up">
-      <img
-        src="style/hero.jpg"
-        alt="Книга та місто"
-        class="w-full max-w-sm sm:max-w-md md:max-w-full h-auto object-cover rounded-lg shadow-lg"
-      />
-    </div>
-  </div>
-</header>
-
-
-
-
-    
+        <!-- Text Content -->
+        <div class="w-full md:w-1/2" data-aos="fade-up">
+          <h1 class="text-3xl sm:text-4xl font-bold mb-4 leading-snug">
+            Ліцензування освітніх закладів: від ідеї до успіху!
+          </h1>
+          <p class="text-base sm:text-lg mb-6">
+            Економте тисячі гривень на послугах юристів! Отримайте покроковий
+            план, експертні рекомендації та готові зразки документів, щоб
+            самостійно, швидко та легально отримати ліцензію для свого
+            освітнього закладу.
+          </p>
+          <!-- Кнопка Зареєструватись -->
+          <a
+            href="#feedback"
+            class="relative group inline-block px-6 py-3 text-base sm:text-lg font-bold uppercase text-white bg-[#E88B22] rounded-full border-2 border-transparent hover:border-white transition-all duration-300"
+          >
+            <span
+              class="relative group-hover:text-[#174441] transition-colors duration-300"
+            >
+              Зареєструватись
+            </span>
+          </a>
+        </div>
+        <!-- Image Content -->
+        <div class="w-full md:w-1/2 flex justify-center" data-aos="fade-up">
+          <img
+            src="style/hero.jpg"
+            alt="Книга та місто"
+            class="w-full max-w-sm sm:max-w-md md:max-w-full h-auto object-cover rounded-lg shadow-lg"
+          />
+        </div>
+      </div>
+    </header>
 
     <!-- Блок 1 -->
     <section
@@ -195,84 +196,83 @@
     </section>
 
     <section
-  id="course-info"
-  class="bg-[#9DB49B] rounded-lg p-8 sm:p-12 my-8 relative container mx-auto w-full"
-  data-aos="fade-up"
->
-  <div class="bg-[#9DB49B]/90 p-6 sm:p-12 rounded-lg w-full">
-    <div class="text-center mb-8">
-      <img 
-        src="style/course.jpg" 
-        class="rounded-full w-full h-auto object-cover mx-auto mb-6 mb:p-12" 
-        alt="Курс"
-      />
-    </div>
-    <h2 class="text-2xl sm:text-3xl font-semibold text-center text-white mb-6">
-      Для кого цей міні-курс?
-    </h2>
-    <p class="text-base sm:text-lg text-[#174441] mb-8 text-center">
-      Цей міні-курс створений для власників освітніх проєктів, які прагнуть:
-    </p>
-
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
-      <!-- Карточка 1 -->
-      <div
-        class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all text-center w-full"
-      >
-        <div
-          class="w-12 h-12 bg-[#E88B22] text-white flex items-center justify-center rounded-full mx-auto mb-4 text-xl font-bold"
-        >
-          1
+      id="course-info"
+      class="bg-[#9DB49B] rounded-lg p-8 sm:p-12 my-8 relative container mx-auto w-full"
+      data-aos="fade-up"
+    >
+      <div class="bg-[#9DB49B]/90 p-6 sm:p-12 rounded-lg w-full">
+        <div class="text-center mb-8">
+          <img
+            src="style/course.jpg"
+            class="rounded-full w-full h-auto object-cover mx-auto mb-6 mb:p-12"
+            alt="Курс"
+          />
         </div>
-        <h3 class="text-lg sm:text-xl font-semibold text-[#174441] mb-4">
-          Збільшити довіру
-        </h3>
-        <p class="text-sm sm:text-base text-[#174441]">
-          Батьки більше довіряють ліцензованим освітнім закладам.
-        </p>
-      </div>
-
-      <!-- Карточка 2 -->
-      <div
-        class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all text-center w-full"
-      >
-        <div
-          class="w-12 h-12 bg-[#E88B22] text-white flex items-center justify-center rounded-full mx-auto mb-4 text-xl font-bold"
+        <h2
+          class="text-2xl sm:text-3xl font-semibold text-center text-white mb-6"
         >
-          2
-        </div>
-        <h3 class="text-lg sm:text-xl font-semibold text-[#174441] mb-4">
-          Покращити репутацію
-        </h3>
-        <p class="text-sm sm:text-base text-[#174441]">
-          Ліцензія допомагає зайняти кращу позицію на ринку.
+          Для кого цей міні-курс?
+        </h2>
+        <p class="text-base sm:text-lg text-[#174441] mb-8 text-center">
+          Цей міні-курс створений для власників освітніх проєктів, які прагнуть:
         </p>
-      </div>
 
-      <!-- Карточка 3 -->
-      <div
-        class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all text-center w-full"
-      >
         <div
-          class="w-12 h-12 bg-[#E88B22] text-white flex items-center justify-center rounded-full mx-auto mb-4 text-xl font-bold"
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full"
         >
-          3
+          <!-- Карточка 1 -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all text-center w-full"
+          >
+            <div
+              class="w-12 h-12 bg-[#E88B22] text-white flex items-center justify-center rounded-full mx-auto mb-4 text-xl font-bold"
+            >
+              1
+            </div>
+            <h3 class="text-lg sm:text-xl font-semibold text-[#174441] mb-4">
+              Збільшити довіру
+            </h3>
+            <p class="text-sm sm:text-base text-[#174441]">
+              Батьки більше довіряють ліцензованим освітнім закладам.
+            </p>
+          </div>
+
+          <!-- Карточка 2 -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all text-center w-full"
+          >
+            <div
+              class="w-12 h-12 bg-[#E88B22] text-white flex items-center justify-center rounded-full mx-auto mb-4 text-xl font-bold"
+            >
+              2
+            </div>
+            <h3 class="text-lg sm:text-xl font-semibold text-[#174441] mb-4">
+              Покращити репутацію
+            </h3>
+            <p class="text-sm sm:text-base text-[#174441]">
+              Ліцензія допомагає зайняти кращу позицію на ринку.
+            </p>
+          </div>
+
+          <!-- Карточка 3 -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all text-center w-full"
+          >
+            <div
+              class="w-12 h-12 bg-[#E88B22] text-white flex items-center justify-center rounded-full mx-auto mb-4 text-xl font-bold"
+            >
+              3
+            </div>
+            <h3 class="text-lg sm:text-xl font-semibold text-[#174441] mb-4">
+              Залучити інвестиції
+            </h3>
+            <p class="text-sm sm:text-base text-[#174441]">
+              Ліцензовані заклади отримують більше фінансової підтримки.
+            </p>
+          </div>
         </div>
-        <h3 class="text-lg sm:text-xl font-semibold text-[#174441] mb-4">
-          Залучити інвестиції
-        </h3>
-        <p class="text-sm sm:text-base text-[#174441]">
-          Ліцензовані заклади отримують більше фінансової підтримки.
-        </p>
       </div>
-    </div>
-  </div>
-</section>
-
-
-  
-
-
+    </section>
 
     <section
       id="mini-course-access"
@@ -445,9 +445,25 @@
               Пакет "Ліцензування"
             </h3>
             <!-- Ціна -->
-            <p class="text-2xl font-bold text-center mb-4"> <p class="font-bold text-4xl italic">750₴</p></p>
+            <p class="text-4xl font-bold text-center italic mb-4">750₴</p>
           </div>
         </div>
+
+        <!-- Кнопка "Зареєструватися" -->
+        <a
+          href="#feedback"
+          class="bg-white text-[#E88B22] px-6 py-3 rounded-lg font-semibold shadow hover:bg-gray-200 transition-all inline-block mt-6"
+        >
+          Зареєструватися
+        </a>
+
+        <!-- Кнопка "Оплатити" -->
+        <button
+          class="bg-[#d07a1d] text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-[#b7691a] transition-all mt-4"
+          onclick="window.location.href='https://secure.wayforpay.com/page?vkh=6797c500-6b5c-4a86-8efb-01a422d1dba8'"
+        >
+          Оплатити
+        </button>
       </div>
     </section>
 
@@ -467,7 +483,7 @@
           data-aos-delay="200"
           style="color: #174441"
         >
-          Оплата через WayForPay - <br>швидко, зручно та безпечно.
+          Оплата через WayForPay - <br />швидко, зручно та безпечно.
         </p>
 
         <div
@@ -493,8 +509,84 @@
       </div>
     </section>
 
+    <!-- Feedback Section -->
+    <div
+      id="feedback"
+      class="mt-8 bg-[#174441] p-6 rounded-lg shadow-lg max-w-lg mx-auto"
+    >
+      <h3 class="text-lg font-semibold text-[#E88B22] mb-4 text-center">
+        Зворотний зв’язок
+      </h3>
+      <p class="text-[#9DB49B] mb-4 text-center">
+        Якщо у вас є питання або пропозиції, заповніть форму, і ми зв’яжемося з
+        вами якнайшвидше.
+      </p>
+      <form action="#" method="POST" class="space-y-4">
+        <div>
+          <label for="name" class="block text-[#E88B22] font-medium"
+            >Ім'я</label
+          >
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="w-full p-2 border border-[#9DB49B] rounded-md bg-[#3A3A3A] text-white focus:ring-2 focus:ring-[#E88B22] focus:outline-none"
+            required
+          />
+        </div>
+        <div>
+          <label for="email" class="block text-[#E88B22] font-medium"
+            >Email</label
+          >
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="w-full p-2 border border-[#9DB49B] rounded-md bg-[#3A3A3A] text-white focus:ring-2 focus:ring-[#E88B22] focus:outline-none"
+            required
+          />
+        </div>
+        <div>
+          <label for="phone" class="block text-[#E88B22] font-medium"
+            >Номер телефону</label
+          >
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="\+?[0-9\s\-\(\)]{7,}"
+            placeholder="+380 (99) 123-45-67"
+            class="w-full p-2 border border-[#9DB49B] rounded-md bg-[#3A3A3A] text-white focus:ring-2 focus:ring-[#E88B22] focus:outline-none"
+            required
+          />
+        </div>
+        <div>
+          <label for="message" class="block text-[#E88B22] font-medium"
+            >Повідомлення</label
+          >
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            class="w-full p-2 border border-[#9DB49B] rounded-md bg-[#3A3A3A] text-white focus:ring-2 focus:ring-[#E88B22] focus:outline-none"
+            required
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="w-full bg-[#E88B22] text-white py-2 rounded-md font-semibold hover:bg-[#9DB49B] transition-transform transform hover:scale-105 transition-colors duration-300"
+        >
+          Надіслати
+        </button>
+      </form>
+    </div>
+
     <!-- Footer -->
-    <footer class="bg-[#174441] text-gray-200 py-10" style="margin-top: 10%" id="faq">
+    <footer
+      class="bg-[#174441] text-gray-200 py-10"
+      style="margin-top: 10%"
+      id="faq"
+    >
       <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- About Section -->
         <div>
@@ -576,6 +668,62 @@
     <!-- AOS Script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
+      document
+        .getElementById("feedbackForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const token = "7637972981:AAExZLPdc5wDDu0pD_jfhl7EqA89tS8l0oU";
+          const chatId = "501849323";
+
+          // Збираємо дані з полів форми
+          const name = document.getElementById("name").value.trim();
+          const email = document.getElementById("email").value.trim();
+          const phone = document.getElementById("phone").value.trim();
+          const message = document.getElementById("message").value.trim();
+
+          // Перевіряємо, чи всі обов'язкові поля заповнені
+          if (!name || !email || !phone || !message) {
+            alert("Будь ласка, заповніть всі поля форми.");
+            return;
+          }
+
+          // Формуємо текст повідомлення для Telegram
+          const telegramMessage = `
+            🔔 Нова запит на сайті "СEO ліцензування"! 🔔\n
+            👤 Ім'я: ${name}\n
+            📧 Email: ${email}\n
+            📞 Телефон: ${phone}\n
+            ❓ Питання: ${message}
+          `;
+
+          // Відправляємо повідомлення через Telegram Bot API
+          fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              chat_id: chatId,
+              text: telegramMessage,
+              parse_mode: "HTML",
+            }),
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              if (data.ok) {
+                alert("Повідомлення успішно надіслано!");
+                document.getElementById("feedbackForm").reset(); // Очищаємо форму
+              } else {
+                throw new Error("Помилка при надсиланні повідомлення.");
+              }
+            })
+            .catch((error) => {
+              console.error("Помилка при надсиланні повідомлення:", error);
+              alert("Сталася помилка. Спробуйте ще раз.");
+            });
+        });
+    </script>
+
+    <script>
       AOS.init({
         duration: 1000,
         easing: "ease-in-out",
@@ -612,7 +760,7 @@
           closeIcon.classList.toggle("hidden");
         });
     </script>
-    
+
     <script>
       window.addEventListener("scroll", function () {
         const navbar = document.querySelector(".navbar");
@@ -622,7 +770,6 @@
           navbar.classList.remove("scrolled"); // Прибираємо клас, якщо скрол менший
         }
       });
-
     </script>
   </body>
 </html>
